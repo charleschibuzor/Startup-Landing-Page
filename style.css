@@ -1,0 +1,52 @@
+body {
+  background-image: url(image/steve-busch-SwBhWx8oPT8-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 200px;
+}
+hr{
+    margin: 20px auto;
+    margin-top: 5rem;
+    margin-bottom: none;
+    color:  orange;
+    border: 3px solid  orange;
+    max-width: 65px;
+    opacity: 1;  
+}
+.buffer{
+    height: 10rem;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 100px; */
+}
+.button button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: orange;
+    color: white;
+    font-weight:bolder;
+    font-size: 15px;
+    transition: all 1s;
+}
+.button button:hover{
+    cursor: pointer;
+    transform: scale(1);
+    padding: 08px 015px;
+    background-color: greenyellow;
+    color: rgb(74, 74, 73);
+    border-radius: 25px;
+}
